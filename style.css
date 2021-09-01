@@ -1,0 +1,163 @@
+#page-wrapper {background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(imageS/qinghong-shen-2h36PYpcUkg-unsplash.jpg); 
+      background-size: cover;
+          background-position: center;
+          background-attachment: fixed; 
+           color: #fff;
+           width: 100%;
+           height: 100%;}
+
+  #header {position: fixed;
+    top: 0px;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+      background-color: #FDDB3A;
+      width: 100%;
+      font-size: 15px;}
+
+
+@media (max-width: 600px) 
+  {header {flex-wrap: wrap;}}
+
+*{ margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+div {display: block;}
+
+@media (max-width: 650px)
+{.logo {margin-top: 15px;
+     width: 100%;
+     position: relative;}}   
+
+     #header-img {width: 50%;
+      height: 50%;
+      max-width: 300px;
+      display: flex;
+      margin-left: 20px;}
+
+#nav-bar { display: block;
+ font-weight: 400;
+ }
+
+nav ul {width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+     }
+nav ul li a {color: #fff;
+        text-decoration: none;
+        font-weight: 500;}
+
+nav ul li a:hover {color: #000;}
+
+
+#form {display: flex;
+      flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       height: 500px;
+       margin-top: 50px;}
+
+#form input[type='email'] { max-width: 275px;
+                            width: 100%;
+                            padding: 5px;
+                           border: 1px solid #000;
+                           text-align: center; }
+
+#form input[type='submit'] {max-width:150px;
+                            width: 100%;
+                            height: 30px;
+                            margin: 10px 0px;
+                            border: 0px;
+                            background-color: rgba(253, 219, 58, 1.0); 
+                             color: #fff;
+                              text-align: center}
+
+
+                              
+#home {padding: 10px 0; 
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;}
+
+#contact {padding: 150px 0; 
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;}
+
+#contact p {width: 300px; 
+}
+
+.about-left-col {flex-basis: 50%;
+     text-align: left;
+      }
+
+.square {height: 12px;
+width: 12px; 
+display: inline-block;
+margin: 5px 0px;
+background: #FDDB3A;}
+
+.line {line-height: 8px;}
+
+.line-1 {width: 15px;
+height: 15px;
+display: inline-block;
+background: #FDDB3A;
+}
+
+
+.line-2 {width: 80px;
+height: 1px;
+display: inline-block;
+background: #FDDB3A;
+}
+
+
+.line-3 {width: 100px;
+height: 1px;
+display: inline-block;
+background: #FDDB3A;
+}
+
+.about-right-col img {width: 100%;}
+
+.about-right-col {flex-basis: 50%;
+      text-align: right;
+       }
+
+.about-right-col h4, p {text-align: justify;
+             }
+
+
+.about-right-col .fa { padding-right: 15px;
+          font-size: 15px;
+           }
+
+#about {padding: 150px 0 0 50px;
+width: 100%;
+height: 100%;}
+
+
+.footer {padding: 50px 20px 20px 50px;
+      margin-right: 20px;
+        font-size: 15px; 
+         }
+
+.footer {padding: 20px 10px;
+margin: auto;
+background-color: rgba(253, 219, 58, 0.7);
+display: flex;
+justify-content: center;
+width: 100%;}
+
+.social-icons img {width: 20px; 
+       padding: 0px 2px 17px 0; 
+       white-space: nowrap;
+        box-align: center;
+       cursor: pointer;
+        margin: 0 auto !important;}
